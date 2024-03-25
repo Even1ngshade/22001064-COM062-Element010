@@ -332,7 +332,7 @@
     // Function to fetch car data from Flask server
     function fetchCarData() {
       $.ajax({
-        url: '/getCars',  // Flask route to fetch car data
+        url: 'https://even1ngshade.github.io/22001064-COM062-Element010/templates/app.py/getCars',  // Flask route to fetch car data
         type: 'GET',
         success: function(response) {
           var cars = response.cars;  // Extracts car data from response
