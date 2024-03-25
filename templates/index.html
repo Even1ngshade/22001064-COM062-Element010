@@ -1,0 +1,405 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Galactic Motors</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/745fa9fb8f.js" crossorigin="anonymous"></script>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="icon" href="Images/GM_Logo.png">
+</head>
+<body>
+  <header id="header">
+    <div class="logo">
+      <a class="a2" id="lhome-btn"><img src="Images/GM_Logo.png"></a>
+    </div>
+    <nav>
+      <ul>
+        <li><a id="home-btn">
+            <h2>Home</h2>
+          </a></li>
+        <li><a href="contact.html">
+            <h2>Contact Us</h2>
+          </a></li>
+        <li><a href="login.html">
+            <h2>Login</h2>
+          </a></li>
+      </ul>
+    </nav>
+  </header>
+  <section id="display">
+    <div id="slideshow">
+      <div>
+        <img src="Images/pexels-aidan-jarrett-687653.jpg">
+      </div>
+      <div>
+        <img src="Images/pexels-aleksey-kuprikov-3786091.jpg">
+      </div>
+      <div>
+        <img src="Images/pexels-alex-azabache-3879065.jpg">
+      </div>
+      <div>
+        <img src="Images/pexels-anton-imbro-1975106.jpg">
+      </div>
+      <div>
+        <img src="Images/pexels-arnie-watkins-3156482.jpg">
+      </div>
+      <div>
+        <img src="Images/pexels-jay-pizzle-3752194.jpg">
+      </div>
+      <div>
+        <img src="Images/pexels-jay-pizzle-3802510.jpg">
+      </div>
+      <div>
+        <img src="Images/pexels-julio-nery-1687147.jpg">
+      </div>
+      <div>
+        <img src="Images/pexels-kamshotthat-5086489.jpg">
+      </div>
+      <div>
+        <img src="Images/pexels-oleksandr-p-376361.jpg">
+      </div>
+      <div>
+        <img src="Images/pexels-prime-cinematics-2036544.jpg">
+      </div>
+      <div>
+        <img src="Images/pexels-ryan-west-1719648.jpg">
+      </div>
+      <div>
+        <img src="Images/pexels-s-von-hoerst-2676096.jpg">
+      </div>
+      <div>
+        <img src="Images/pexels-s-von-hoerst-2920064.jpg">
+      </div>
+      <div>
+        <img src="Images/pexels-thuany-marcante-1805053.jpg">
+      </div>
+      <div>
+        <img src="Images/pexels-zsolt-joo-2882234.jpg">
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container">
+      <div class="row">
+        <table class="table">
+          <thead>
+            <tr class="filters">
+              <th>Make
+                <select id="make-filter" class="form-control">
+                  <option>Any</option>
+                  <option>Isuzu</option>
+                  <option>Jeep</option>
+                  <option>Kia</option>
+                  <option>Lexus</option>
+                  <option>Lotus</option>
+                  <option>VW</option>
+                  <option>Daewoo</option>
+                  <option>Volvo</option>
+                  <option>Vauxhall</option>
+                  <option>Ford</option>
+                  <option>Peugeot</option>
+                  <option>Renault</option>
+                  <option>BMW</option>
+                  <option>Alfa Romeo</option>
+                  <option>Honda</option>
+                  <option>Fiat</option>
+                  <option>Nissan</option>
+                  <option>Landrover</option>
+                  <option>Jaguar</option>
+                  <option>Toyota</option>
+                  <option>Mercedes</option>
+                  <option>Rover</option>
+                  <option>Austin</option>
+                  <option>Datsun</option>
+                  <option>Mazda</option>
+                  <option>MG</option>
+                  <option>Bentley</option>
+                </select>
+              </th>
+              <th>Model
+                <select id="model-filter" class="form-control">
+                  <option>Any</option>
+                  <option>Trooper</option>
+                  <option>Cherokee</option>
+                  <option>Pride</option>
+                  <option>LS 400</option>
+                  <option>Elan</option>
+                  <option>Elite</option>
+                  <option>Eclat</option>
+                  <option>Golf Gti</option>
+                  <option>Passat</option>
+                  <option>Espero</option>
+                  <option>Nexia</option>
+                  <option>Polo</option>
+                  <option>360</option>
+                  <option>850</option>
+                  <option>Corsa</option>
+                  <option>Cavalier</option>
+                  <option>Escort</option>
+                  <option>Fiesta</option>
+                  <option>Mondeo</option>
+                  <option>106</option>
+                  <option>306</option>
+                  <option>405</option>
+                  <option>605</option>
+                  <option>205</option>
+                  <option>406</option>
+                  <option>11</option>
+                  <option>21</option>
+                  <option>Clio</option>
+                  <option>Espace</option>
+                  <option>321</option>
+                  <option>316</option>
+                  <option>Sierra</option>
+                  <option>33</option>
+                  <option>164</option>
+                  <option>Accord</option>
+                  <option>Civic</option>
+                  <option>Uno</option>
+                  <option>Tipo</option>
+                  <option>Panda</option>
+                  <option>Primera</option>
+                  <option>Bluebird</option>
+                  <option>Sunny</option>
+                  <option>Discovery</option>
+                  <option>XJS</option>
+                  <option>Landcruiser</option>
+                  <option>E220</option>
+                  <option>Series I</option>
+                  <option>Sirocco</option>
+                  <option>XJ6</option>
+                  <option>Previa</option>
+                  <option>SL500</option>
+                  <option>328i</option>
+                  <option>Vitesse</option>
+                  <option>Montego</option>
+                  <option>Subina</option>
+                  <option>Punto</option>
+                  <option>3500i</option>
+                  <option>525i</option>
+                  <option>728 SE</option>
+                  <option>Micra</option>
+                  <option>V70</option>
+                  <option>Cherry</option>
+                  <option>323i</option>
+                  <option>MR2</option>
+                  <option>Midget</option>
+                  <option>Metro</option>
+                  <option>Roadster</option>
+                  <option>Turbo</option>
+                  <option>Astra</option>
+                  <option>Carlton</option>
+                  <option>Omega</option>
+                  <option>Frontera</option>
+                  <option>Nova</option>
+                  <option>Tigre</option>
+                  <option>Vectra</option>
+                  <option>Senator</option>
+                  <option>Mulsanne</option>
+                  <option>Golf</option>
+                  <option>Jetta</option>
+                  <option>Polo</option>
+                  <option>Megane</option>
+                  <option>Safrane</option>
+                  <option>Laguna</option>
+                  <option>205 XE</option>
+                  <option>306 XL</option>
+                  <option>205 D</option>
+                  <option>205 GTI</option>
+                  <option>405 GT</option>
+                  <option>605 XS</option>
+                  <option>306 XD</option>
+                  <option>505 L</option>
+                  <option>106 XL</option>
+                  <option>E320</option>
+                  <option>Kompressor</option>
+                  <option>SL300</option>
+                  <option>SL500</option>
+                  <option>A200</option>
+                  <option>C320</option>
+                  <option>C220</option>
+                  <option>840 SE</option>
+                  <option>728i</option>
+                  <option>740i</option>
+                  <option>540i</option>
+                  <option>735 SE</option>
+                  <option>730 SE</option>
+                  <option>525 SE</option>
+                </select>
+              </th>
+              <th>Price (£)
+                <select id="price-filter" class="form-control">
+                  <option>Any</option>
+                  <option>Between 0 to 1000</option>
+                  <option>Between 1001 to 5000</option>
+                  <option>Between 5001 to 10000</option>
+                  <option>Between 10001 to 20000</option>
+                  <option>Between 20001 to 30000</option>
+                  <option>Between 30001 to 40000</option>
+                  <option>Between 40001 to 50000</option>
+                  <option>Between 50001 to 60000</option>
+                  <option>Between 60001 to 70000</option>
+                  <option>Between 70001 to 80000</option>
+                  <option>Between 80001 to 90000</option>
+                  <option>Between 90001 to 100000</option>
+                  <option>100,000+</option>
+                </select>
+              </th>
+              <th>Town
+                <select id="town-filter" class="form-control">
+                  <option>Any</option>
+                  <option>Clacton on Sea</option>
+                  <option>Kingsbridge</option>
+                  <option>Torquay</option>
+                  <option>Exeter</option>
+                </select>
+              </th>
+            </tr>
+          </thead>
+        </table>
+        <div class="panel panel-primary filterable">
+          <div class="panel-heading">
+            <h3 class="panel-title">Cars for Sale</h3>
+            <div class="pull-right"></div>
+          </div>
+          <table id="car-list-tbl" class="table">
+            <thead>
+                <tr>
+                  <th>Make</th>
+                  <th>Model</th>
+                  <th>Price (£)</th>
+                  <th>Town</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+          </table>
+          <div class="pagination">
+            <button id="prev-page-btn">Previous Page</button>
+            <button id="next-page-btn">Next Page</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+<footer>
+  <div class="footer-top flex-container">
+    <div class="flex-item f-i1">
+     <span><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></span>
+     <span><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></span>
+     <span><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></span>
+     <span><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a></span>
+     <hr>
+     <span><a href="#" onclick="return false"><i class="fas fa-text-height"></i></a></span>
+     <div class="toggle1-container">
+       <input type="checkbox" id="toggle1" onchange="addContrast()">
+       <label class="l1" for="toggle1">
+         <div class="dm"><p>Dark Mode</p></div>
+         <div class="track"></div>
+         <div class="slider"></div>
+       </label>
+     </div>
+   </div>
+ </div>
+ <div class="flex-container f-c2">
+   <div class="flex-item f-i2">
+     <h6>©2024 Galactic Motors. All rights reserved.</h6>
+   </div>
+ </div>
+</footer>
+<script>
+  document.getElementById('home-btn').addEventListener('click', function() {
+    document.getElementById('deals').scrollIntoView({behavior: 'smooth', block: 'start'});
+  })
+  document.getElementById('lhome-btn').addEventListener('click', function() {
+    document.getElementById('deals').scrollIntoView({behavior: 'smooth', block: 'start'});
+  })
+  function addContrast() {
+    document.body.classList.toggle('contrast');
+  }
+</script>
+<script>
+  $(document).ready(function () {
+    var pageSize = 8; // Number of rows per page
+    var currentPage = 1;
+
+    // Function to fetch car data from Flask server
+    function fetchCarData() {
+      $.ajax({
+        url: '/getCars',  // Flask route to fetch car data
+        type: 'GET',
+        success: function(response) {
+          var cars = response.cars;  // Extracts car data from response
+          displayCarRows(cars);  // Call function to display car rows
+        },
+        error: function(xhr, status, error) {
+          console.error('Error fetching car data:', error);
+        }
+      });
+    }
+
+    // Function to display car rows in the table
+    function displayCarRows(cars) {
+      var carRowsHtml = '';
+      cars.forEach(function(car) {
+        carRowsHtml += `
+        <tr class="car-list-row" data-id="${car.carIndex}" data-make="${car.make}" data-model="${car.model}" data-price="${car.price}" data-town="${car.town}">
+          <td>${car.make}</td>
+          <td>${car.model}</td>
+          <td>${car.price}</td>
+          <td>${car.town}</td>
+        </tr>`;
+      });
+      $('#car-list-tbl tbody').html(carRowsHtml);
+      updatePaginationButtons();
+    }
+
+    // Function to update pagination buttons
+    function updatePaginationButtons() {
+      var totalRows = $('.car-list-row').length;
+      var totalPages = Math.ceil(totalRows / pageSize);
+
+      if (currentPage < totalPages) {
+        $('#next-page-btn').prop('disabled', false).removeClass('disabled');
+      } else {
+        $('#next-page-btn').prop('disabled', true).addClass('disabled');
+      }
+
+      if (currentPage > 1) {
+        $('#prev-page-btn').prop('disabled', false).removeClass('disabled');
+      } else {
+        $('#prev-page-btn').prop('disabled', true).addClass('disabled');
+      }
+    }
+
+    $('#prev-page-btn').on('click', function () {
+      if (currentPage > 1) {
+        currentPage--;
+        showRowsForCurrentPage();
+        updatePaginationButtons();
+      }
+    });
+
+    $('#next-page-btn').on('click', function () {
+      var totalRows = $('.car-list-row').length;
+      var totalPages = Math.ceil(totalRows / pageSize);
+        
+      if (currentPage < totalPages) {
+        currentPage++;
+        showRowsForCurrentPage();
+        updatePaginationButtons();
+      }
+    });
+
+    // Initial page load
+    fetchCarData();
+  });
+</script>
+<script src="index.js"></script>
+</html>
